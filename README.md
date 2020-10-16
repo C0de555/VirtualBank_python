@@ -2,11 +2,11 @@
 Virtual bank code with basic functions in python.
 
 Predetermined variables (set the values however you like but keep the data type the same as currently defined)
-userList = [0, 1, 2]                # the list of customers/users username that uses the virtual bank
-userPass = ['', '', '']             # the list of customers/users password that uses the virtual bank
-balances = [300, 400.44, 500.05]    # the list of customers/users current balance that uses the virtual bank
-adminUsername = ''                  # admin username
-adminPassword = ''                  # admin password
+userList = [0, 1, 2]                 (the list of customers/users username that uses the virtual bank)
+userPass = ['', '', '']              (the list of customers/users password that uses the virtual bank)
+balances = [300, 400.44, 500.05]     (the list of customers/users current balance that uses the virtual bank)
+adminUsername = ''                   (admin username)
+adminPassword = ''                   (admin password)
 
 Create a virtual bank that allow customers to withdraw, deposit, and view their balance.
 Like most bank ATMs, we want our virtual bank to keep running for each customer throughout the day.
